@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(to right, #f3f4f7, #dcecfb);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8d90f !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding: 6rem 2rem;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+              url('https://source.unsplash.com/1600x500/?technology,startup') no-repeat center center/cover;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.jumbotron .btn-primary {
+  background-color: #ffc107;
+  border: none;
+  color: #212529;
+}
+
+.jumbotron .btn-primary:hover {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+/* Cards */
+.card {
+  border: none;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.card-title {
+  font-weight: 600;
+  color: #007bff;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #232526, #414345);
+  color: #eee;
+  padding: 2rem 1rem;
+}
